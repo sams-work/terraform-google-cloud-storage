@@ -75,7 +75,7 @@ variable "retention_policy" {
     is_locked        = bool
     retention_period = number
   })
-  default = null
+  default = {}
 }
 
 variable "cors" {
